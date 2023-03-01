@@ -3,6 +3,7 @@
 <center>
 <img src="img/vscode.png" alt="Emmet logo" width="250">
 </center>
+
 <br>
 
 Par **Rachid EDJEKOUANE ⭐️**
@@ -24,6 +25,8 @@ Par **Rachid EDJEKOUANE ⭐️**
 11. **[Rechercher un fichier](#11-rechercher-un-fichier)**
 12. **[Naviguer dans les fichiers ouverts](#12-naviguer-dans-les-fichiers-ouverts)**
 13. **[Fermer le fichier en cours](#13-fermer-le-fichier-en-cours)**
+14. **[Afficher la palette de commandes](#14-afficher-la-palette-de-commandes)**
+15. **[Paramètres utilisateur](#15-paramètres-utilisateur)**
 
 <br>
 
@@ -107,6 +110,18 @@ Par **Rachid EDJEKOUANE ⭐️**
 ## 13. Fermer le fichier en cours
 
 -   Ctrl + W
+
+---
+
+## 14. Afficher la palette de commandes
+
+-   Ctrl + Maj + P
+
+---
+
+## 15. Paramètres utilisateur
+
+-   Ctrl + ,
 
 ---
 
