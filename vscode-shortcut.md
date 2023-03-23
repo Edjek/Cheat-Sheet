@@ -34,95 +34,125 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 1. Copier
 
--   Ctrl + C
+- Ctrl + C
 
 > Pour (couper, copier, coller) on peut selectionner plusieurs lignes  
 > Ou se positionner n'importe où sur une ligne sans la surligner
+
+<br>
 
 ---
 
 ## 2. Coller
 
--   Ctrl + V
+- Ctrl + V
+
+<br>
 
 ---
 
 ## 3. Couper
 
--   Ctrl + X
+- Ctrl + X
+
+<br>
 
 ---
 
 ## 4. Tout selectionner
 
--   Ctrl + A
+- Ctrl + A
+
+<br>
 
 ---
 
 ## 5. Déplacer une ligne en haut ou en bas
 
--   Alt + ARROW UP / DOWN ARROW
+- Alt + ARROW UP / DOWN ARROW
+
+<br>
 
 ---
 
 ## 6. Copier une ligne en haut ou en bas
 
--   Shift + Alt + ARROW UP / DOWN ARROW
+- Shift + Alt + ARROW UP / DOWN ARROW
+
+<br>
 
 ---
 
 ## 7. Mettre en commentaire
 
--   Ctrl + /
+- Ctrl + /
+
+<br>
 
 ---
 
 ## 8. Chercher
 
--   Ctrl + F
+- Ctrl + F
+
+<br>
 
 ---
 
 ## 9. Remplacer
 
--   Ctrl + H
+- Ctrl + H
+
+<br>
 
 ---
 
 ## 10. Créer un nouveau fichier
 
--   Ctrl + N
+- Ctrl + N
+
+<br>
 
 ---
 
 ## 11. Rechercher un fichier
 
--   Ctrl + P
+- Ctrl + P
+
+<br>
 
 ---
 
 ## 12. Naviguer dans les fichiers ouverts
 
--   Ctrl + Tab
+- Ctrl + Tab
+
+<br>
 
 ---
 
 ## 13. Fermer le fichier en cours
 
--   Ctrl + W
+- Ctrl + W
+
+<br>
 
 ---
 
 ## 14. Afficher la palette de commandes
 
--   Ctrl + Maj + P
+- Ctrl + Maj + P
+
+<br>
 
 ---
 
 ## 15. Paramètres utilisateur
 
--   Ctrl + ,
+- Ctrl + ,
+
+<br>
 
 ---
 
-**[⬆ retour au sommaire](#sommaire)**
+**[⬆ retour au sommaire](#)**

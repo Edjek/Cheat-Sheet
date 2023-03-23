@@ -6,24 +6,47 @@
 
 <br>
 
-## Module 1 : Introduction à JavaScript
-
-<br>
-
--   Introduction à JavaScript et son rôle dans le développement web
--   Les différents types de données et variables en JavaScript
--   Les opérateurs et les expressions
--   Les structures de contrôle de base (if/else, switch/case, boucles for/while)
+Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 2 : Fonctions et événements en JavaScript
+## Sommaire
+
+1. **[Introduction à JavaScript](#module-1--introduction-a-javascript)**
+2. **[Fonctions et évènements en JavaScript](#module-2--fonctions-et-évènements-en-javascript)**
+3. **[Manipulation du DOM et gestion des formulaires](#module-3--manipulation-du-dom-et-gestion-des-formulaires)**
+4. **[Les tableaux et les objets](#module-4--les-tableaux-et-les-objets)**
+5. **[Les requêtes HTTP et les API](#module-5--les-requetes-http-et-les-api)**
+6. **[Gestion des erreurs et débogage](#module-6--gestion-des-erreurs-et-débogage)**
+7. **[Les frameworks et bibliothèques JavaScript](#module-7--les-frameworks-et-bibliothèques-javascript)**
+8. **[Chercher](#module-8--test)**
 
 <br>
 
--   Les fonctions et leur utilisation en JavaScript
--   Les événements et leur manipulation en JavaScript
--   Les fonctions anonymes et les fermetures (closures)
+---
+
+## Module 1 : Introduction a JavaScript
+
+<br>
+
+- Introduction à JavaScript et son rôle dans le développement web
+- Les différents types de données et variables en JavaScript
+- Les opérateurs et les expressions
+- Les structures de contrôle de base (if/else, switch/case, boucles for/while)
+
+<br>
+
+---
+
+## Module 2 : Fonctions et évènements en JavaScript
+
+<br>
+
+- Les fonctions et leur utilisation en JavaScript
+- Les événements et leur manipulation en JavaScript
+- Les fonctions anonymes et les fermetures (closures)
+
+<br>
 
 ---
 
@@ -31,9 +54,11 @@
 
 <br>
 
--   Le Document Object Model (DOM) et sa manipulation en JavaScript
--   La gestion des événements du DOM
--   La validation des formulaires en JavaScript
+- Le Document Object Model (DOM) et sa manipulation en JavaScript
+- La gestion des événements du DOM
+- La validation des formulaires en JavaScript
+
+<br>
 
 ---
 
@@ -41,19 +66,23 @@
 
 <br>
 
--   Les tableaux et leur utilisation en JavaScript
--   Les objets et leur manipulation en JavaScript
--   Les prototypes et l'héritage en JavaScript
-
----
-
-## Module 5 : Les requêtes HTTP et les API
+- Les tableaux et leur utilisation en JavaScript
+- Les objets et leur manipulation en JavaScript
+- Les prototypes et l'héritage en JavaScript
 
 <br>
 
--   Les requêtes HTTP et leur manipulation en JavaScript
--   Les API et leur utilisation en JavaScript
--   L'utilisation des Promises pour gérer les appels asynchrones
+---
+
+## Module 5 : Les requetes HTTP et les API
+
+<br>
+
+- Les requêtes HTTP et leur manipulation en JavaScript
+- Les API et leur utilisation en JavaScript
+- L'utilisation des Promises pour gérer les appels asynchrones
+
+<br>
 
 ---
 
@@ -61,9 +90,11 @@
 
 <br>
 
--   La gestion des erreurs et des exceptions en JavaScript
--   Les outils de débogage en JavaScript (console, breakpoints)
--   Les bonnes pratiques pour éviter les erreurs courantes
+- La gestion des erreurs et des exceptions en JavaScript
+- Les outils de débogage en JavaScript (console, breakpoints)
+- Les bonnes pratiques pour éviter les erreurs courantes
+
+<br>
 
 ---
 
@@ -71,12 +102,14 @@
 
 <br>
 
--   Les frameworks JavaScript (Angular, React, Vue.js)
--   Les bibliothèques JavaScript (jQuery, Lodash, Moment.js)
--   Les avantages et les inconvénients de l'utilisation de ces outils
+- Les frameworks JavaScript (Angular, React, Vue.js)
+- Les bibliothèques JavaScript (jQuery, Lodash, Moment.js)
+- Les avantages et les inconvénients de l'utilisation de ces outils
+
+<br>
 
 ---
 
 <br>
 
-**[⬆ haut de page](#javascript)**
+**[⬆ haut de page](#)**
