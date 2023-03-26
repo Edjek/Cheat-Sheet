@@ -14,12 +14,12 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 1. **[Introduction à JavaScript](#module-1--introduction-a-javascript)**
 2. **[Fonctions et évènements en JavaScript](#module-2--fonctions-et-évènements-en-javascript)**
-3. **[Manipulation du DOM et gestion des formulaires](#module-3--manipulation-du-dom-et-gestion-des-formulaires)**
-4. **[Les tableaux et les objets](#module-4--les-tableaux-et-les-objets)**
-5. **[Les requêtes HTTP et les API](#module-5--les-requetes-http-et-les-api)**
-6. **[Gestion des erreurs et débogage](#module-6--gestion-des-erreurs-et-débogage)**
-7. **[Les frameworks et bibliothèques JavaScript](#module-7--les-frameworks-et-bibliothèques-javascript)**
-8. **[Chercher](#module-8--test)**
+3. **[Les tableaux et les objets](#module-3--les-tableaux-et-les-objets)**
+4. **[Manipulation du DOM et gestion des formulaires](#module-4--manipulation-du-dom-et-gestion-des-formulaires)**
+5. **[ES6 (Javascript moderne)](#module-5--es6-javascript-moderne)**
+6. **[Les requêtes HTTP et les API](#module-6--les-requetes-http-et-les-api)**
+7. **[Gestion des erreurs et débogage](#module-7--gestion-des-erreurs-et-débogage)**
+8. **[Les frameworks et bibliothèques JavaScript](#module-8--les-frameworks-et-bibliothèques-javascript)**
 
 <br>
 
@@ -50,19 +50,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 3 : Manipulation du DOM et gestion des formulaires
-
-<br>
-
-- Le Document Object Model (DOM) et sa manipulation en JavaScript
-- La gestion des événements du DOM
-- La validation des formulaires en JavaScript
-
-<br>
-
----
-
-## Module 4 : Les tableaux et les objets
+## Module 3 : Les tableaux et les objets
 
 <br>
 
@@ -74,7 +62,32 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 5 : Les requetes HTTP et les API
+## Module 4 : Manipulation du DOM et gestion des formulaires
+
+<br>
+
+- Le Document Object Model (DOM) et sa manipulation en JavaScript
+- La gestion des événements du DOM
+- La validation des formulaires en JavaScript
+
+<br>
+
+---
+
+## Module 5 : ES6 (Javascript moderne)
+
+<br>
+
+- Les fonctions fléchées
+- Les méthodes pour tableaux (map, filter, sort,reduce)
+- Déstructuration et décomposition
+- Les modules Javascript
+
+<br>
+
+---
+
+## Module 6 : Les requetes HTTP et les API
 
 <br>
 
@@ -86,7 +99,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 6 : Gestion des erreurs et débogage
+## Module 7 : Gestion des erreurs et débogage
 
 <br>
 
@@ -98,7 +111,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 7 : Les frameworks et bibliothèques JavaScript
+## Module 8 : Les frameworks et bibliothèques JavaScript
 
 <br>
 
