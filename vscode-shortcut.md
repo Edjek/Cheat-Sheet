@@ -1,4 +1,4 @@
-# [VS Code Raccourcis](https://www.243tech.com/raccourcis-vs-code/)
+# [VS Code Raccourcis](https://flaviocopes.com/vscode/)
 
 <center>
 <img src="img/vscode.png" alt="Emmet logo" width="250">
