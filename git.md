@@ -15,6 +15,8 @@ Par **Rachid EDJEKOUANE ⭐️**
 1. **[Initialisation](#1-initialisation)**
 2. **[Commande de base](#2-commande-de-base)**
 3. **[Git branch](#3-git-branch)**
+4. **[Git checkout](#4-checkout)**
+5. **[Tags](#5-nous-pouvons-créer-des-tags-pour-mieux-nous-repérer)**
 
 <br>
 
@@ -67,13 +69,19 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### On regarde l'historique des commits (des sauvegardes) :
 
--   git commit -m "Ajout de xxx"
+-   git log
 
 <br>
 
 ### Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
 
 -   git commit --amend
+
+<br>
+
+### Afin de visualiser les changements qui ont eu lieu dans les fichiers modifiés, on peut éxécuter :
+
+-   git diff
 
 <br>
 
@@ -127,16 +135,69 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
-`De base, vous pouvez tomber sur trois types de fusion :`
+_De base, vous pouvez tomber sur trois types de fusion :_
 
-`Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche.`
+_Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche._
 
-`Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit.`
+_Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit._
 
-`Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) .`
+_Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) ._
 
 <br>
 
 ---
 
-**[⬆ haut de page](#)**
+## 4. Checkout
+
+---
+
+<br>
+
+### Nous avons vu que nous pouvons également nous déplacer parmi les commits avec checkout :
+
+-   git checkout idDeCommit(ex: 45645645)
+
+<br>
+
+### Pour revenir en haut de la liste de commits, nous pouvons faire au choix :
+
+-   git switch nomDeLaBrancheEnCours
+
+-   git checkout nomDeLaBrancheEnCours
+
+<br>
+
+---
+
+## 5. Nous pouvons créer des Tags pour mieux nous repérer
+
+---
+
+<br>
+### On se déplace d'abord sur le commit que l'on veut "taguer", puis :
+
+-   git tag nomDuTag
+
+<br>
+
+### Nous pouvons désormais nous déplacer vers le commit du tag correspondant :
+
+-   git checkout nomDuTag
+
+<br>
+
+### Nous pouvons visualiser la liste de tags :
+
+-   git tag
+
+<br>
+
+### Nous pouvons supprimer un tag :
+
+-   git tag -d nomDuTag
+
+<br>
+
+---
+
+**[⬆ retour au sommaire](#)**

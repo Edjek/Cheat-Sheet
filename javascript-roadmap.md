@@ -125,4 +125,4 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
-**[⬆ haut de page](#)**
+**[⬆ retour au sommaire](#)**
