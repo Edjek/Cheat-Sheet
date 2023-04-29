@@ -1,7 +1,7 @@
 # [Javascript](https://fr.javascript.info/)
 
 <center>
-<img src="img/javascript-logo.png" alt="Javascript Logo" width="150">
+<img src="img/javascript-logo.png" alt="Javascript Logo" width="100">
 </center>
 
 <br>

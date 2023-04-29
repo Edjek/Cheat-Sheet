@@ -1,7 +1,7 @@
 # [Emmet support](https://emmet.io/)
 
 <center>
-<img src="img/emmet.png" alt="Emmet logo" width="150">
+<img src="img/emmet.png" alt="Emmet logo" width="100">
 </center>
 
 <br>
