@@ -28,16 +28,12 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
-<br>
-
 -   git config --global user.name "John doe"
 -   git config --global user.email "johndoe@gmail.com"
 
 <br>
 
 ### On initialise un dépôt avec :
-
-<br>
 
 -   git init
 
@@ -53,15 +49,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### On s'informe du statut de notre dépôt, par rapport aux fichiers ajoutés/modifiés avec :
 
-<br>
-
 -   git status
 
 <br>
 
 ### On rajoute les fichiers dans une zone de transit avec :
-
-<br>
 
 -   git add index.html
 
@@ -69,23 +61,17 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### On sauvegarde l'état du dossier avec un commit :
 
-<br>
-
 -   git commit -m "Ajout de xxx"
 
 <br>
 
 ### On regarde l'historique des commits (des sauvegardes) :
 
-<br>
-
 -   git commit -m "Ajout de xxx"
 
 <br>
 
 ### Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
-
-<br>
 
 -   git commit --amend
 
@@ -101,15 +87,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### Pour lister les branches :
 
-<br>
-
 -   git branch
 
 <br>
 
 ### Pour créer une branche :
-
-<br>
 
 -   git branch maBranche
 
@@ -117,15 +99,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### Pour se déplacer sur une branche
 
-<br>
-
 -   git switch maBranche
 
 <br>
 
 ### Afin de créer une branche et de se déplacer dessus intantanément, on éxécute :
-
-<br>
 
 -   git switch -c maBranche
 
@@ -133,23 +111,17 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### Lorsqu'on veut changer le nom d'une branche, on navigue dessus, puis on lance :
 
-<br>
-
 -   git branch -m changementDeNom
 
 <br>
 
 ### Pour faire fusionner une ou plusieurs branches, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
 
-<br>
-
 -   git merge autreBranche
 
 <br>
 
 ### Afin de supprimer une branche, on doit se situer sur une branche différente de celle qu'on veut supprimer, puis :
-
-<br>
 
 -   git branch -d maBranche
 
