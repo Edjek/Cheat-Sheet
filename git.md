@@ -12,15 +12,21 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## Sommaire
 
-1. **[Introduction à Php](#module-1--introduction-a-php)**
-2. **[Fonctions, tableaux et manipulation de fichiers](#module-2--fonctions-tableaux-et-manipulation-de-fichiers)**
-3. **[Gestion des formulaires et des sessions](#module-3--gestion-des-formulaires-et-des-sessions)**
-4. **[Bases de données avec PHP et MySQL](#module-4--bases-de-données-avec-php-et-mysql)**
-5. **[Introduction aux frameworks PHP et déploiement)](#module-5--introduction-aux-frameworks-php-et-déploiement)**
+1. **[Initialisation](#1-initialisation)**
+2. **[Commande de base](#2-commande-de-base)**
+3. **[Git branch](#3-git-branch)**
 
 <br>
 
 ---
+
+## 1. Initialisation
+
+<br>
+
+---
+
+<br>
 
 ### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
@@ -38,6 +44,14 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 -   git init
+
+<br>
+
+---
+
+<br>
+
+## 2. Commande de base
 
 <br>
 
@@ -93,7 +107,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Git branch
+## 3. Git branch
 
 <br>
 
