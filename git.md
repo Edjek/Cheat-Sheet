@@ -49,8 +49,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-<br>
-
 ## 2. Commande de base
 
 <br>
