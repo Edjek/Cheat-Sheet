@@ -22,8 +22,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 1. Initialisation
 
-<br>
-
 ---
 
 <br>
@@ -37,8 +35,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
 ### On initialise un dépôt avec :
 
 <br>
@@ -51,9 +47,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 2. Commande de base
 
-<br>
-
 ---
+
+<br>
 
 ### On s'informe du statut de notre dépôt, par rapport aux fichiers ajoutés/modifiés avec :
 
@@ -63,8 +59,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
 ### On rajoute les fichiers dans une zone de transit avec :
 
 <br>
@@ -72,8 +66,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   git add index.html
 
 <br>
-
----
 
 ### On sauvegarde l'état du dossier avec un commit :
 
@@ -83,8 +75,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
 ### On regarde l'historique des commits (des sauvegardes) :
 
 <br>
@@ -92,8 +82,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   git commit -m "Ajout de xxx"
 
 <br>
-
----
 
 ### Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
 
@@ -107,6 +95,8 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 3. Git branch
 
+---
+
 <br>
 
 ### Pour lister les branches :
@@ -117,17 +107,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
 ### Pour créer une branche :
 
 <br>
 
 -   git branch maBranche
-
-<br>
-
----
 
 <br>
 
@@ -139,19 +123,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
-<br>
-
 ### Afin de créer une branche et de se déplacer dessus intantanément, on éxécute :
 
 <br>
 
 -   git switch -c maBranche
-
-<br>
-
----
 
 <br>
 
@@ -163,29 +139,11 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
-
-<br>
-
 ### Pour faire fusionner une ou plusieurs branches, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
 
 <br>
 
 -   git merge autreBranche
-
-<br>
-
-`De base, vous pouvez tomber sur trois types de fusion :`
-
-`Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche.`
-
-`Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit.`
-
-`Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) .`
-
-<br>
-
----
 
 <br>
 
@@ -197,7 +155,13 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
----
+`De base, vous pouvez tomber sur trois types de fusion :`
+
+`Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche.`
+
+`Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit.`
+
+`Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) .`
 
 <br>
 
