@@ -24,8 +24,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 1. Initialisation
 
----
-
 ### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
 -   git config --global user.name "John doe"
@@ -42,8 +40,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 ---
 
 ## 2. Commande de base
-
----
 
 ### On s'informe du statut de notre dépôt, par rapport aux fichiers ajoutés/modifiés avec :
 
@@ -84,8 +80,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 ---
 
 ## 3. Git branch
-
----
 
 ### Pour lister les branches :
 
@@ -143,8 +137,6 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 
 ## 4. Checkout
 
----
-
 ### Nous avons vu que nous pouvons également nous déplacer parmi les commits avec checkout :
 
 -   git checkout idDeCommit(ex: 45645645)
@@ -162,8 +154,6 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 ---
 
 ## 5. Nous pouvons créer des Tags pour mieux nous repérer
-
----
 
 ### On se déplace d'abord sur le commit que l'on veut "taguer", puis :
 
