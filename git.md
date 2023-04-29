@@ -181,4 +181,57 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 
 ---
 
+## 6. Reset et Restore
+
+### Si on a effectué des changements et qu'ils ne nous plaisent plus :
+
+-   git restore nomDuFichier
+
+_Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve._
+
+<br>
+
+### Nous pouvons également supprimé les fichiers en zone de transit avec :
+
+-   git restore --staged index.html
+
+<br>
+
+### Pour afficher l'historique de commits sur une ligne :
+
+- git log --oneline
+
+<br>
+
+### Pour supprimer des commits jusqu'à un commit passé :
+
+- git reset idCommit
+
+<br>
+
+### Pour supprimer des commits jusqu'à un commit passé tout en supprimant les changements qu'il peuvent avoir été éffectués :
+
+- git reset --hard idCommit
+
+<br>
+
+
+### Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
+
+- git revert idDuCommitÀRetrouver
+
+<br>
+
+---
+
+## 7. Cherry-pick
+
+### Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas une branche entière :
+
+- git cherry-pick idDuCommit
+
+<br>
+
+---
+
 **[⬆ retour au sommaire](#)**
