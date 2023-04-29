@@ -24,6 +24,8 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## 1. Initialisation
 
+<br>
+
 ### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
 -   git config --global user.name "John doe"
