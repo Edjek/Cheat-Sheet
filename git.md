@@ -31,8 +31,8 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git config --global user.name "John doe"
-    git config --global user.email "johndoe@gmail.com"
+git config --global user.name "John doe"
+git config --global user.email "johndoe@gmail.com"
 ```
 
 <br>
@@ -42,7 +42,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git config --global color.ui auto
+git config --global color.ui auto
 ```
 
 <br>
@@ -52,7 +52,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git config --global --edit
+git config --global --edit
 ```
 
 <br>
@@ -62,7 +62,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git config --global core.editor [editor]
+git config --global core.editor [editor]
 ```
 
 <br>
@@ -76,7 +76,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git init [nom-du-projet]
+git init [nom-du-projet]
 ```
 
 <br>
@@ -86,7 +86,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git clone [url]
+git clone [url]
 ```
 
 <br>
@@ -96,7 +96,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git remote add [name] [url]
+git remote add [name] [url]
 ```
 
 <br>
@@ -106,7 +106,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git push -u origin main
+git push -u origin main
 ```
 
 <br>
@@ -120,7 +120,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git status
+git status
 ```
 
 <br>
@@ -130,7 +130,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git add [fichier]
+git add [fichier]
 ```
 
 <br>
@@ -140,7 +140,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git commit -m "Message descriptif du commit"
+git commit -m "Message descriptif du commit"
 ```
 
 <br>
@@ -150,7 +150,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git reset [fichier]
+git reset [fichier]
 ```
 
 <br>
@@ -160,7 +160,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git log
+git log
 ```
 
 <br>
@@ -170,7 +170,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git log --oneline
+git log --oneline
 ```
 
 <br>
@@ -180,7 +180,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git commit --amend
+git commit --amend
 ```
 
 <br>
@@ -190,7 +190,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git diff
+git diff
 ```
 
 <br>
@@ -204,7 +204,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git branch
+git branch
 ```
 
 <br>
@@ -214,7 +214,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git branch [nom-de-branche]
+git branch [nom-de-branche]
 ```
 
 <br>
@@ -224,7 +224,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git switch [nom-de-branche]
+git switch [nom-de-branche]
 ```
 
 <br>
@@ -234,7 +234,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git switch -c [nom-de-branche]
+git switch -c [nom-de-branche]
 ```
 
 <br>
@@ -244,7 +244,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git branch -m [nouveau-nom-de-branche]
+git branch -m [nouveau-nom-de-branche]
 ```
 
 <br>
@@ -254,7 +254,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git merge [nom-de-branche]
+git merge [nom-de-branche]
 ```
 
 <br>
@@ -264,7 +264,7 @@ Par **Rachid EDJEKOUANE ⭐️**
 <br>
 
 ```bash
-    git branch -d [nom-de-branche]
+git branch -d [nom-de-branche]
 ```
 
 <br>
@@ -289,7 +289,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git checkout [id-du-commit]
+git checkout [id-du-commit]
 ```
 
 <br>
@@ -299,9 +299,9 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git switch [nom-de-branche]
+git switch [nom-de-branche]
 
-    git checkout [nom-de-branche]
+git checkout [nom-de-branche]
 ```
 
 <br>
@@ -315,7 +315,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git tag [nom-du-tag]
+git tag [nom-du-tag]
 ```
 
 <br>
@@ -325,7 +325,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git checkout [nom-du-tag]
+git checkout [nom-du-tag]
 ```
 
 <br>
@@ -335,7 +335,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git tag
+git tag
 ```
 
 <br>
@@ -345,7 +345,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git tag -d [nom-du-tag]
+git tag -d [nom-du-tag]
 ```
 
 <br>
@@ -359,7 +359,7 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 <br>
 
 ```bash
-    git restore [nom-du-fichier]
+git restore [nom-du-fichier]
 ```
 
 _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve._
@@ -371,7 +371,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 <br>
 
 ```bash
-    git restore --staged index.html
+git restore --staged index.html
 ```
 
 <br>
@@ -381,7 +381,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 <br>
 
 ```bash
-    git reset idCommit
+git reset idCommit
 ```
 
 <br>
@@ -391,7 +391,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 <br>
 
 ```bash
-    git reset --hard idCommit
+git reset --hard idCommit
 ```
 
 <br>
@@ -401,7 +401,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 <br>
 
 ```bash
-    git revert idDuCommitÀRetrouver
+git revert idDuCommitÀRetrouver
 ```
 
 <br>
@@ -415,7 +415,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 <br>
 
 ```bash
-    git cherry-pick idDuCommit
+git cherry-pick idDuCommit
 ```
 
 <br>
