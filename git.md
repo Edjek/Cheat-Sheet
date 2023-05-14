@@ -12,17 +12,19 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ## Sommaire
 
-1. **[Initialisation](#1-initialisation)**
-2. **[Commande de base](#2-commande-de-base)**
-3. **[Git branch](#3-git-branch)**
-4. **[Git checkout](#4-checkout)**
-5. **[Tags](#5-nous-pouvons-créer-des-tags-pour-mieux-nous-repérer)**
+1. **[Configuration de Git](#1-configuration-de-git)**
+2. **[Créer des dépôts](#2-créer-des-dépôts)**
+3. **[Commande de base](#3-commande-de-base)**
+4. **[Branch](#4-branch)**
+5. **[Git checkout](#5-checkout)**
+6. **[Git tag](#6-git-tag)**
+7. **[Reset et Restore](#7-reset-et-restore)**
 
 <br>
 
 ---
 
-## 1. Initialisation
+## 1. Configuration de Git
 
 ### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
@@ -31,37 +33,83 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 <br>
 
-### On initialise un dépôt avec :
+### Active la colorisation de la sortie en ligne de commande :
 
--   git init
+-   git config --global color.ui auto
+
+<br>
+
+### Ouvre le fichier de configuration globale dans un éditeur de texte pour une édition manuelle :
+
+-   git config --global --edit
+
+<br>
+
+### Définit l'éditeur de texte utilisé par les commandes pour tous les utilisateurs de la machine. (editor) doit être la commande qui lance l'éditeur souhaité :
+
+-   git config --global core.editor [editor]
 
 <br>
 
 ---
 
-## 2. Commande de base
+## 2. Créer des dépôts
 
-### On s'informe du statut de notre dépôt, par rapport aux fichiers ajoutés/modifiés avec :
+### Crée un dépôt local à partir du nom spécifié :
+
+-   git init [nom-du-projet]
+
+<br>
+
+### Crée un dépôt local à partir du nom spécifié :
+
+-   git clone [url]
+
+<br>
+
+### Crée une connexion avec un dépôt distant :
+
+-   git remote [name] [url]
+
+<br>
+
+---
+
+## 3. Commande de base
+
+### Informe du statut de notre dépôt, liste tous les nouveaux fichiers et les fichiers modifiés à commiter :
 
 -   git status
 
 <br>
 
-### On rajoute les fichiers dans une zone de transit avec :
+### Ajoute un instantané du fichier en zone de transit (staging area), en préparation pour le suivi de version :
 
--   git add index.html
-
-<br>
-
-### On sauvegarde l'état du dossier avec un commit :
-
--   git commit -m "Ajout de xxx"
+-   git add [fichier]
 
 <br>
 
-### On regarde l'historique des commits (des sauvegardes) :
+### Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions :
+
+-   git commit -m "Message descriptif du commit"
+
+<br>
+
+### Enleve le fichier de l'index, mais conserve son contenu :
+
+-   git reset [fichier]
+
+<br>
+
+### Montre l'historique des versions pour la branche courante :
 
 -   git log
+
+<br>
+
+### Pour afficher l'historique de commits sur une ligne :
+
+-   git log --oneline
 
 <br>
 
@@ -79,47 +127,47 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## 3. Git branch
+## 4. Branch
 
-### Pour lister les branches :
+### Liste toutes les branches locales dans le dépôt courant :
 
 -   git branch
 
 <br>
 
-### Pour créer une branche :
+### Crée une nouvelle branche :
 
--   git branch maBranche
-
-<br>
-
-### Pour se déplacer sur une branche
-
--   git switch maBranche
+-   git branch [nom-de-branche]
 
 <br>
 
-### Afin de créer une branche et de se déplacer dessus intantanément, on éxécute :
+### Bascule sur la branche spécifiée :
 
--   git switch -c maBranche
-
-<br>
-
-### Lorsqu'on veut changer le nom d'une branche, on navigue dessus, puis on lance :
-
--   git branch -m changementDeNom
+-   git switch [nom-de-branche]
 
 <br>
 
-### Pour faire fusionner une ou plusieurs branches, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
+### Crée une branche et de se déplace dessus intantanément :
 
--   git merge autreBranche
+-   git switch -c [nom-de-branche]
+
+<br>
+
+### Change le nom d'une branche, on navigue dessus, puis on lance :
+
+-   git branch -m [nouveau-nom-de-branche]
+
+<br>
+
+### Fusionne une branche, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
+
+-   git merge [nom-de-branche]
 
 <br>
 
 ### Afin de supprimer une branche, on doit se situer sur une branche différente de celle qu'on veut supprimer, puis :
 
--   git branch -d maBranche
+-   git branch -d [nom-de-branche]
 
 <br>
 
@@ -135,35 +183,35 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 
 ---
 
-## 4. Checkout
+## 5. Checkout
 
-### Nous avons vu que nous pouvons également nous déplacer parmi les commits avec checkout :
+### Déplace parmi les commits avec checkout :
 
--   git checkout idDeCommit(ex: 45645645)
+-   git checkout [id-du-commit]
 
 <br>
 
 ### Pour revenir en haut de la liste de commits, nous pouvons faire au choix :
 
--   git switch nomDeLaBrancheEnCours
+-   git switch [nom-de-branche]
 
--   git checkout nomDeLaBrancheEnCours
+-   git checkout [nom-de-branche]
 
 <br>
 
 ---
 
-## 5. Nous pouvons créer des Tags pour mieux nous repérer
+## 6. Git tag
 
 ### On se déplace d'abord sur le commit que l'on veut "taguer", puis :
 
--   git tag nomDuTag
+-   git tag [nom-du-tag]
 
 <br>
 
 ### Nous pouvons désormais nous déplacer vers le commit du tag correspondant :
 
--   git checkout nomDuTag
+-   git checkout [nom-du-tag]
 
 <br>
 
@@ -175,17 +223,17 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 
 ### Nous pouvons supprimer un tag :
 
--   git tag -d nomDuTag
+-   git tag -d [nom-du-tag]
 
 <br>
 
 ---
 
-## 6. Reset et Restore
+## 7. Reset et Restore
 
 ### Si on a effectué des changements et qu'ils ne nous plaisent plus :
 
--   git restore nomDuFichier
+-   git restore [nom-du-fichier]
 
 _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve._
 
@@ -197,28 +245,21 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 
 <br>
 
-### Pour afficher l'historique de commits sur une ligne :
-
-- git log --oneline
-
-<br>
-
 ### Pour supprimer des commits jusqu'à un commit passé :
 
-- git reset idCommit
+-   git reset idCommit
 
 <br>
 
 ### Pour supprimer des commits jusqu'à un commit passé tout en supprimant les changements qu'il peuvent avoir été éffectués :
 
-- git reset --hard idCommit
+-   git reset --hard idCommit
 
 <br>
 
-
 ### Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
 
-- git revert idDuCommitÀRetrouver
+-   git revert idDuCommitÀRetrouver
 
 <br>
 
@@ -228,7 +269,7 @@ _Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillai
 
 ### Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas une branche entière :
 
-- git cherry-pick idDuCommit
+-   git cherry-pick idDuCommit
 
 <br>
 
