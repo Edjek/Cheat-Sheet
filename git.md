@@ -269,7 +269,6 @@ git branch -d [nom-de-branche]
 
 <br>
 
-
 _De base, vous pouvez tomber sur trois types de fusion :_
 
 _Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche._
@@ -362,7 +361,7 @@ git tag -d [nom-du-tag]
 git restore [nom-du-fichier]
 ```
 
-_Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve._
+*Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve.*
 
 <br>
 
