@@ -1,7 +1,7 @@
 # [Git](https://git-scm.com/book/fr/v2)
 
 <center>
-<img src="img/git-logo-white.png" alt="Javascript Logo" width="150">
+<img src="./img/git-logo-white.png" alt="Javascript Logo" width="150">
 </center>
 
 <br>

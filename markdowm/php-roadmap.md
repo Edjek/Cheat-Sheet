@@ -1,7 +1,7 @@
 # [Php](https://www.php.net/docs.php)
 
 <center>
-<img src="img/php.png" alt="Javascript Logo" width="150">
+<img src="./img/php.png" alt="Javascript Logo" width="150">
 </center>
 
 <br>

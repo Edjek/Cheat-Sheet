@@ -1,7 +1,7 @@
 # [VS Code Raccourcis](https://flaviocopes.com/vscode/)
 
 <center>
-<img src="img/vscode.png" alt="Emmet logo" width="200">
+<img src="./img/vscode.png" alt="Emmet logo" width="200">
 </center>
 
 <br>
