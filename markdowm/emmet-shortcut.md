@@ -1,4 +1,4 @@
-# [Emmet support](https://emmet.io/)
+# [Emmet](https://emmet.io/)
 
 <center>
 <img src="./img/emmet.png" alt="Emmet logo" width="100">
@@ -6,7 +6,7 @@
 
 <br>
 
-> Emmet est un moteur d’autocomplétion intégré à Visual Studio Code qui permet d’accélérer votre production de code grâce à une syntaxe raccourcie.
+    Emmet est un moteur d’autocomplétion intégré à Visual Studio Code qui permet d’accélérer votre production de code grâce à une syntaxe raccourcie.
 
 <br>
 

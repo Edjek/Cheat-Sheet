@@ -1,8 +1,12 @@
-# [Extensions for Visual Studio Code](https://marketplace.visualstudio.com/vscode)
+# [Extensions for VS Code](https://marketplace.visualstudio.com/vscode)
 
 <center>
 <img src="./img/vscode.png" alt="Emmet logo" width="200">
 </center>
+
+<br>
+
+    Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré.
 
 <br>
 

@@ -6,6 +6,10 @@
 
 <br>
 
+    JavaScript (souvent abrégé en « JS ») est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js.
+
+<br>
+
 Par **Rachid EDJEKOUANE ⭐️**
 
 ---

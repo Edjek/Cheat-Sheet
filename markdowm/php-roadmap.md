@@ -6,6 +6,10 @@
 
 <br>
 
+    PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur web.
+
+<br>
+
 Par **Rachid EDJEKOUANE ⭐️**
 
 ---
