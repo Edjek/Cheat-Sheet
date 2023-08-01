@@ -32,124 +32,125 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## 1. Copier
-
-- Ctrl + C
-
 > Pour (couper, copier, coller) on peut selectionner plusieurs lignes  
-> Ou se positionner n'importe où sur une ligne sans la surligner
+> OU  
+> Se positionner n'importe où sur une seule ligne sans avoir à la surligner entièrement
+
+### 1. Copier
+
+-   Ctrl + C
 
 <br>
 
 ---
 
-## 2. Coller
+### 2. Coller
 
-- Ctrl + V
-
-<br>
-
----
-
-## 3. Couper
-
-- Ctrl + X
+-   Ctrl + V
 
 <br>
 
 ---
 
-## 4. Tout selectionner
+### 3. Couper
 
-- Ctrl + A
-
-<br>
-
----
-
-## 5. Déplacer une ligne en haut ou en bas
-
-- Alt + ARROW UP / DOWN ARROW
+-   Ctrl + X
 
 <br>
 
 ---
 
-## 6. Copier une ligne en haut ou en bas
+### 4. Tout selectionner
 
-- Shift + Alt + ARROW UP / DOWN ARROW
-
-<br>
-
----
-
-## 7. Mettre en commentaire
-
-- Ctrl + /
+-   Ctrl + A
 
 <br>
 
 ---
 
-## 8. Chercher
+### 5. Déplacer une ligne vers le haut ou le bas
 
-- Ctrl + F
-
-<br>
-
----
-
-## 9. Remplacer
-
-- Ctrl + H
+-   Alt + ARROW UP / DOWN ARROW
 
 <br>
 
 ---
 
-## 10. Créer un nouveau fichier
+### 6. Copier une ligne en haut ou en bas
 
-- Ctrl + N
-
-<br>
-
----
-
-## 11. Rechercher un fichier
-
-- Ctrl + P
+-   Shift + Alt + ARROW UP / DOWN ARROW
 
 <br>
 
 ---
 
-## 12. Naviguer dans les fichiers ouverts
+### 7. Mettre en commentaire
 
-- Ctrl + Tab
-
-<br>
-
----
-
-## 13. Fermer le fichier en cours
-
-- Ctrl + W
+-   Ctrl + /
 
 <br>
 
 ---
 
-## 14. Afficher la palette de commandes
+### 8. Chercher
 
-- Ctrl + Maj + P
+-   Ctrl + F
 
 <br>
 
 ---
 
-## 15. Paramètres utilisateur
+### 9. Remplacer
 
-- Ctrl + ,
+-   Ctrl + H
+
+<br>
+
+---
+
+### 10. Créer un nouveau fichier
+
+-   Ctrl + N
+
+<br>
+
+---
+
+### 11. Rechercher un fichier
+
+-   Ctrl + P
+
+<br>
+
+---
+
+### 12. Naviguer dans les fichiers ouverts
+
+-   Ctrl + Tab
+
+<br>
+
+---
+
+### 13. Fermer le fichier en cours
+
+-   Ctrl + W
+
+<br>
+
+---
+
+### 14. Afficher la palette de commandes
+
+-   Ctrl + Maj + P
+
+<br>
+
+---
+
+### 15. Paramètres utilisateur
+
+-   Ctrl + ,
 
 <br>
 

@@ -19,47 +19,34 @@ Par **Rachid EDJEKOUANE ⭐️**
 5. **[Git checkout](#5-checkout)**
 6. **[Git tag](#6-git-tag)**
 7. **[Reset et Restore](#7-reset-et-restore)**
+8. **[Cherry-pick](#8-cherry-pick)**
 
 <br>
 
 ---
 
-## 1. Configuration de Git
+### 1. Configuration de Git
 
-### On initialise un nom + email, qu'on peut modifier à tout moment avec :
-
-<br>
+#### On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
 ```bash
 git config --global user.name "John doe"
 git config --global user.email "johndoe@gmail.com"
 ```
 
-<br>
-
-### Active la colorisation de la sortie en ligne de commande :
-
-<br>
+#### Active la colorisation de la sortie en ligne de commande :
 
 ```bash
 git config --global color.ui auto
 ```
 
-<br>
-
-### Ouvre le fichier de configuration globale dans un éditeur de texte pour une édition manuelle :
-
-<br>
+#### Ouvre le fichier de configuration globale dans un éditeur de texte pour une édition manuelle :
 
 ```bash
 git config --global --edit
 ```
 
-<br>
-
-### Définit l'éditeur de texte utilisé par les commandes pour tous les utilisateurs de la machine. (editor) doit être la commande qui lance l'éditeur souhaité :
-
-<br>
+#### Définit l'éditeur de texte utilisé par les commandes pour tous les utilisateurs de la machine. (editor) doit être la commande qui lance l'éditeur souhaité :
 
 ```bash
 git config --global core.editor [editor]
@@ -69,41 +56,27 @@ git config --global core.editor [editor]
 
 ---
 
-## 2. Créer des dépôts
+### 2. Créer des dépôts
 
-### Crée un dépôt local à partir du nom spécifié :
-
-<br>
+#### Crée un dépôt local à partir du nom spécifié :
 
 ```bash
 git init [nom-du-projet]
 ```
 
-<br>
-
-### Crée un dépôt local à partir du nom spécifié :
-
-<br>
+#### Crée un dépôt local à partir du nom spécifié :
 
 ```bash
 git clone [url]
 ```
 
-<br>
-
-### Crée une connexion avec un dépôt distant :
-
-<br>
+#### Crée une connexion avec un dépôt distant :
 
 ```bash
 git remote add [name] [url]
 ```
 
-<br>
-
-### Pour envoyer le contenu du dépôt local vers le dépôt distant, tout en liant les branches main à main avec -u(upstream) :
-
-<br>
+#### Pour envoyer le contenu du dépôt local vers le dépôt distant, tout en liant les branches main à main avec -u(upstream) :
 
 ```bash
 git push -u origin main
@@ -113,81 +86,51 @@ git push -u origin main
 
 ---
 
-## 3. Commande de base
+### 3. Commande de base
 
-### Informe du statut de notre dépôt, liste tous les nouveaux fichiers et les fichiers modifiés à commiter :
-
-<br>
+#### Informe du statut de notre dépôt, liste tous les nouveaux fichiers et les fichiers modifiés à commiter :
 
 ```bash
 git status
 ```
 
-<br>
-
-### Ajoute un instantané du fichier en zone de transit (staging area), en préparation pour le suivi de version :
-
-<br>
+#### Ajoute un instantané du fichier en zone de transit (staging area), en préparation pour le suivi de version :
 
 ```bash
 git add [fichier]
 ```
 
-<br>
-
-### Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions :
-
-<br>
+#### Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions :
 
 ```bash
 git commit -m "Message descriptif du commit"
 ```
 
-<br>
-
-### Enleve le fichier de l'index, mais conserve son contenu :
-
-<br>
+#### Enleve le fichier de l'index, mais conserve son contenu :
 
 ```bash
 git reset [fichier]
 ```
 
-<br>
-
-### Montre l'historique des versions pour la branche courante :
-
-<br>
+#### Montre l'historique des versions pour la branche courante :
 
 ```bash
 git log
 ```
 
-<br>
-
-### Pour afficher l'historique de commits sur une ligne :
-
-<br>
+#### Pour afficher l'historique de commits sur une ligne :
 
 ```bash
 git log --oneline
 ```
 
-<br>
-
-### Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
-
-<br>
+#### Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
 
 ```bash
 git commit --amend
 ```
 
-<br>
-
-### Afin de visualiser les changements qui ont eu lieu dans les fichiers modifiés, on peut éxécuter :
-
-<br>
+#### Afin de visualiser les changements qui ont eu lieu dans les fichiers modifiés, on peut éxécuter :
 
 ```bash
 git diff
@@ -197,77 +140,49 @@ git diff
 
 ---
 
-## 4. Branch
+### 4. Branch
 
-### Liste toutes les branches locales dans le dépôt courant :
-
-<br>
+#### Liste toutes les branches locales dans le dépôt courant :
 
 ```bash
 git branch
 ```
 
-<br>
-
-### Crée une nouvelle branche :
-
-<br>
+#### Crée une nouvelle branche :
 
 ```bash
 git branch [nom-de-branche]
 ```
 
-<br>
-
-### Bascule sur la branche spécifiée :
-
-<br>
+#### Bascule sur la branche spécifiée :
 
 ```bash
 git switch [nom-de-branche]
 ```
 
-<br>
-
-### Crée une branche et de se déplace dessus intantanément :
-
-<br>
+#### Crée une branche et de se déplace dessus intantanément :
 
 ```bash
 git switch -c [nom-de-branche]
 ```
 
-<br>
-
-### Change le nom d'une branche, on navigue dessus, puis on lance :
-
-<br>
+#### Change le nom d'une branche, on navigue dessus, puis on lance :
 
 ```bash
 git branch -m [nouveau-nom-de-branche]
 ```
 
-<br>
-
-### Fusionne une branche, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
-
-<br>
+#### Fusionne une branche, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
 
 ```bash
 git merge [nom-de-branche]
 ```
 
-<br>
-
-### Afin de supprimer une branche, on doit se situer sur une branche différente de celle qu'on veut supprimer, puis :
-
-<br>
+#### Afin de supprimer une branche, on doit se situer sur une branche différente de celle qu'on veut supprimer, puis :
 
 ```bash
 git branch -d [nom-de-branche]
 ```
-
-<br>
 
 _De base, vous pouvez tomber sur trois types de fusion :_
 
@@ -281,21 +196,15 @@ _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branch
 
 ---
 
-## 5. Checkout
+### 5. Checkout
 
-### Déplace parmi les commits avec checkout :
-
-<br>
+#### Déplace parmi les commits avec checkout :
 
 ```bash
 git checkout [id-du-commit]
 ```
 
-<br>
-
-### Pour revenir en haut de la liste de commits, nous pouvons faire au choix :
-
-<br>
+#### Pour revenir en haut de la liste de commits, nous pouvons faire au choix :
 
 ```bash
 git switch [nom-de-branche]
@@ -307,41 +216,27 @@ git checkout [nom-de-branche]
 
 ---
 
-## 6. Git tag
+### 6. Git tag
 
-### On se déplace d'abord sur le commit que l'on veut "taguer", puis :
-
-<br>
+#### On se déplace d'abord sur le commit que l'on veut "taguer", puis :
 
 ```bash
 git tag [nom-du-tag]
 ```
 
-<br>
-
-### Nous pouvons désormais nous déplacer vers le commit du tag correspondant :
-
-<br>
+#### Nous pouvons désormais nous déplacer vers le commit du tag correspondant :
 
 ```bash
 git checkout [nom-du-tag]
 ```
 
-<br>
-
-### Nous pouvons visualiser la liste de tags :
-
-<br>
+#### Nous pouvons visualiser la liste de tags :
 
 ```bash
 git tag
 ```
 
-<br>
-
-### Nous pouvons supprimer un tag :
-
-<br>
+#### Nous pouvons supprimer un tag :
 
 ```bash
 git tag -d [nom-du-tag]
@@ -351,53 +246,35 @@ git tag -d [nom-du-tag]
 
 ---
 
-## 7. Reset et Restore
+### 7. Reset et Restore
 
-### Si on a effectué des changements et qu'ils ne nous plaisent plus :
-
-<br>
+#### Si on a effectué des changements et qu'ils ne nous plaisent plus :
 
 ```bash
 git restore [nom-du-fichier]
 ```
 
-*Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve.*
+_Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve._
 
-<br>
-
-### Nous pouvons également supprimé les fichiers en zone de transit avec :
-
-<br>
+#### Nous pouvons également supprimé les fichiers en zone de transit avec :
 
 ```bash
 git restore --staged index.html
 ```
 
-<br>
-
-### Pour supprimer des commits jusqu'à un commit passé :
-
-<br>
+#### Pour supprimer des commits jusqu'à un commit passé :
 
 ```bash
 git reset idCommit
 ```
 
-<br>
-
-### Pour supprimer des commits jusqu'à un commit passé tout en supprimant les changements qu'il peuvent avoir été éffectués :
-
-<br>
+#### Pour supprimer des commits jusqu'à un commit passé tout en supprimant les changements qu'il peuvent avoir été éffectués :
 
 ```bash
 git reset --hard idCommit
 ```
 
-<br>
-
-### Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
-
-<br>
+#### Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
 
 ```bash
 git revert idDuCommitÀRetrouver
@@ -407,11 +284,9 @@ git revert idDuCommitÀRetrouver
 
 ---
 
-## 7. Cherry-pick
+### 8. Cherry-pick
 
-### Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas une branche entière :
-
-<br>
+#### Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas une branche entière :
 
 ```bash
 git cherry-pick idDuCommit

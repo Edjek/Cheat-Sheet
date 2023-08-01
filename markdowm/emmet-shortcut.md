@@ -28,71 +28,71 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## 1. Insérer le code de base d' une page HTML
+### 1. Insérer le code de base d' une page HTML
 
 _Si vous souhaitez ajouter le squelette de base d'une page HTML, vous tapez un point d'exclamation puis entrée._
 
-- !
+-   !
 
 <br>
 
 ---
 
-## 2. Insérer une balise
+### 2. Insérer une balise
 
 _Si vous souhaitez ajouter une balise seule, par exemple une "div", vous tapez son nom puis entrée._
 
-- div
+-   div
 
 <br>
 
 ---
 
-## 3. Créer une balise qui a une ou des classes
+### 3. Créer une balise qui a une ou des classes
 
 _Si notre div doit comporter un attribut "class", nous allons l'inclure de la même façon lors de la saisie._
 
-- p.le-nom-de-ma-class
+-   p.le-nom-de-ma-class
 
 <br>
 
 ---
 
-## 4. Insérer du texte
+### 4. Insérer du texte
 
 _Dans l'exemple précédent nous n'avons pas mis le texte, nous pouvons le faire en l'ajoutant entre accolades "{texte}"_
 
-- p.le-nom-de-ma-class{coucou}
+-   p.le-nom-de-ma-class{coucou}
 
 <br>
 
 ---
 
-## 5. Créer plusieurs éléments qui se suivent
+### 5. Créer plusieurs éléments qui se suivent
 
 _Si nous souhaitons créer 3 sections qui auront des classes différentes, nous pouvons les enchainer au moyen du "+" qui, ici, signifiera "suivant"_
 
-- h2+p+a
+-   h2+p+a
 
 <br>
 
 ---
 
-## 6. Imbriquer des éléments
+### 6. Imbriquer des éléments
 
 _Si un élément doit être créé à l'intérieur d'un autre élément, nous pourrons, comme en CSS, utiliser le symbole ">"_
 
-- div>p
+-   div>p
 
 <br>
 
 ---
 
-## 7. Multiplier des éléments
+### 7. Multiplier des éléments
 
 _Si un élément doit être créé plusieurs fois, nous pourrons utiliser le symbole "\*"_
 
-- li\*3
+-   li\*3
 
 <br>
 

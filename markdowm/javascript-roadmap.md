@@ -25,104 +25,86 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-## Module 1 : Introduction a JavaScript
+### Module 1 : Introduction a JavaScript
 
-<br>
-
-- Introduction à JavaScript et son rôle dans le développement web
-- Les différents types de données et variables en JavaScript
-- Les opérateurs et les expressions
-- Les structures de contrôle de base (if/else, switch/case, boucles for/while)
-
-<br>
-
----
-
-## Module 2 : Fonctions et évènements en JavaScript
-
-<br>
-
-- Les fonctions et leur utilisation en JavaScript
-- Les événements et leur manipulation en JavaScript
-- Les fonctions anonymes et les fermetures (closures)
+-   Introduction à JavaScript et son rôle dans le développement web
+-   Les différents types de données et variables en JavaScript
+-   Les opérateurs et les expressions
+-   Les structures de contrôle de base (if/else, switch/case, boucles for/while)
 
 <br>
 
 ---
 
-## Module 3 : Les tableaux et les objets
+### Module 2 : Fonctions et évènements en JavaScript
 
-<br>
-
-- Les tableaux et leur utilisation en JavaScript
-- Les objets et leur manipulation en JavaScript
-- Les prototypes et l'héritage en JavaScript
-
-<br>
-
----
-
-## Module 4 : Manipulation du DOM et gestion des formulaires
-
-<br>
-
-- Le Document Object Model (DOM) et sa manipulation en JavaScript
-- La gestion des événements du DOM
-- La validation des formulaires en JavaScript
+-   Les fonctions et leur utilisation en JavaScript
+-   Les événements et leur manipulation en JavaScript
+-   Les fonctions anonymes et les fermetures (closures)
 
 <br>
 
 ---
 
-## Module 5 : ES6 (Javascript moderne)
+### Module 3 : Les tableaux et les objets
 
-<br>
-
-- Les fonctions fléchées
-- Les méthodes pour tableaux (map, filter, sort,reduce)
-- Déstructuration et décomposition
-- Les modules Javascript
-
-<br>
-
----
-
-## Module 6 : Les requetes HTTP et les API
-
-<br>
-
-- Les requêtes HTTP et leur manipulation en JavaScript
-- Les API et leur utilisation en JavaScript
-- L'utilisation des Promises pour gérer les appels asynchrones
+-   Les tableaux et leur utilisation en JavaScript
+-   Les objets et leur manipulation en JavaScript
+-   Les prototypes et l'héritage en JavaScript
 
 <br>
 
 ---
 
-## Module 7 : Gestion des erreurs et débogage
+### Module 4 : Manipulation du DOM et gestion des formulaires
 
-<br>
-
-- La gestion des erreurs et des exceptions en JavaScript
-- Les outils de débogage en JavaScript (console, breakpoints)
-- Les bonnes pratiques pour éviter les erreurs courantes
-
-<br>
-
----
-
-## Module 8 : Les frameworks et bibliothèques JavaScript
-
-<br>
-
-- Les frameworks JavaScript (Angular, React, Vue.js)
-- Les bibliothèques JavaScript (jQuery, Lodash, Moment.js)
-- Les avantages et les inconvénients de l'utilisation de ces outils
+-   Le Document Object Model (DOM) et sa manipulation en JavaScript
+-   La gestion des événements du DOM
+-   La validation des formulaires en JavaScript
 
 <br>
 
 ---
 
+### Module 5 : ES6 (Javascript moderne)
+
+-   Les fonctions fléchées
+-   Les méthodes pour tableaux (map, filter, sort,reduce)
+-   Déstructuration et décomposition
+-   Les modules Javascript
+
 <br>
+
+---
+
+### Module 6 : Les requetes HTTP et les API
+
+-   Les requêtes HTTP et leur manipulation en JavaScript
+-   Les API et leur utilisation en JavaScript
+-   L'utilisation des Promises pour gérer les appels asynchrones
+
+<br>
+
+---
+
+### Module 7 : Gestion des erreurs et débogage
+
+-   La gestion des erreurs et des exceptions en JavaScript
+-   Les outils de débogage en JavaScript (console, breakpoints)
+-   Les bonnes pratiques pour éviter les erreurs courantes
+
+<br>
+
+---
+
+### Module 8 : Les frameworks et bibliothèques JavaScript
+
+-   Les frameworks JavaScript (Angular, React, Vue.js)
+-   Les bibliothèques JavaScript (jQuery, Lodash, Moment.js)
+-   Les avantages et les inconvénients de l'utilisation de ces outils
+
+<br>
+
+---
 
 **[⬆ retour au sommaire](#)**
