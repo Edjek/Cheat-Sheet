@@ -6,7 +6,7 @@
 
 <br>
 
-    Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré.
+> Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré.
 
 <br>
 
@@ -36,13 +36,14 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ---
 
-> Pour (couper, copier, coller) on peut selectionner plusieurs lignes  
-> OU  
+> Pour (couper, copier, coller) on peut selectionner plusieurs lignes ou  
 > Se positionner n'importe où sur une seule ligne sans avoir à la surligner entièrement
 
 ### 1. Copier
 
--   Ctrl + C
+```
+Ctrl + C
+```
 
 <br>
 
@@ -50,7 +51,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 2. Coller
 
--   Ctrl + V
+```
+Ctrl + V
+```
 
 <br>
 
@@ -58,7 +61,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 3. Couper
 
--   Ctrl + X
+```
+Ctrl + X
+```
 
 <br>
 
@@ -66,7 +71,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 4. Tout selectionner
 
--   Ctrl + A
+```
+Ctrl + A
+```
 
 <br>
 
@@ -74,7 +81,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 5. Déplacer une ligne vers le haut ou le bas
 
--   Alt + ARROW UP / DOWN ARROW
+```
+Alt + ARROW UP / DOWN ARROW
+```
 
 <br>
 
@@ -82,7 +91,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 6. Copier une ligne en haut ou en bas
 
--   Shift + Alt + ARROW UP / DOWN ARROW
+```
+Shift + Alt + ARROW UP / DOWN ARROW
+```
 
 <br>
 
@@ -90,7 +101,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 7. Mettre en commentaire
 
--   Ctrl + /
+```
+Ctrl + /
+```
 
 <br>
 
@@ -98,7 +111,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 8. Chercher
 
--   Ctrl + F
+```
+Ctrl + F
+```
 
 <br>
 
@@ -106,7 +121,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 9. Remplacer
 
--   Ctrl + H
+```
+Ctrl + H
+```
 
 <br>
 
@@ -114,7 +131,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 10. Créer un nouveau fichier
 
--   Ctrl + N
+```
+Ctrl + N
+```
 
 <br>
 
@@ -122,7 +141,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 11. Rechercher un fichier
 
--   Ctrl + P
+```
+Ctrl + P
+```
 
 <br>
 
@@ -130,7 +151,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 12. Naviguer dans les fichiers ouverts
 
--   Ctrl + Tab
+```
+Ctrl + Tab
+```
 
 <br>
 
@@ -138,7 +161,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 13. Fermer le fichier en cours
 
--   Ctrl + W
+```
+Ctrl + W
+```
 
 <br>
 
@@ -146,7 +171,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 14. Afficher la palette de commandes
 
--   Ctrl + Maj + P
+```
+Ctrl + Maj + P
+```
 
 <br>
 
@@ -154,7 +181,9 @@ Par **Rachid EDJEKOUANE ⭐️**
 
 ### 15. Paramètres utilisateur
 
--   Ctrl + ,
+```
+Ctrl + ,
+```
 
 <br>
 
