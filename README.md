@@ -9,12 +9,14 @@
 ## Description
 
 -   Fichiers aide memoire
+    -   Markdown Cheat Sheet
+    -   Extensions Vs Code
+    -   Extensions Vs Code Avancées
     -   Raccourci clavier Vs Code
     -   Raccourci clavier Emmet
-    -   Extensions Vs Code
     -   Aide mémoire Git
-    -   Roadmap PHP débutants
     -   Roadmap Javascript débutants
+    -   Roadmap PHP débutants
 
 ---
 
