@@ -4,11 +4,7 @@
 <img src="./img/php.png" alt="Javascript Logo" width="150">
 </center>
 
-<br>
-
 > PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur web.
-
-<br>
 
 Par **Rachid EDJEKOUANE ⭐️**
 
@@ -22,8 +18,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 4. **[Bases de données avec PHP et MySQL](#module-4--bases-de-données-avec-php-et-mysql)**
 5. **[Introduction aux frameworks PHP et déploiement)](#module-5--introduction-aux-frameworks-php-et-déploiement)**
 
-<br>
-
 ---
 
 ### Module 1 : Introduction a Php
@@ -35,8 +29,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Opérateurs et expressions
 -   Premiers pas en programmation : les structures conditionnelles et les boucles
 
-<br>
-
 ---
 
 ### Module 2 : Fonctions, tableaux et manipulation de fichiers
@@ -47,8 +39,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Manipulation de fichiers : lecture, écriture, suppression
 -   Introduction à la gestion des erreurs et des exceptions
 
-<br>
-
 ---
 
 ### Module 3 : Gestion des formulaires et des sessions
@@ -58,8 +48,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Validation des données de formulaire côté serveur
 -   Gestion des sessions en PHP
 -   Sécurité des formulaires : prévention des attaques XSS et CSRF
-
-<br>
 
 ---
 
@@ -72,8 +60,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Affichage des résultats de requêtes dans une page web
 -   Les erreurs les plus courantes lors de la connexion à une base de données
 
-<br>
-
 ---
 
 ### Module 5 : Introduction aux frameworks PHP et déploiement
@@ -82,8 +68,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Déploiement d'une application PHP sur un serveur web
 -   Les bonnes pratiques de déploiement : sécurité, performance, maintenance
 -   Résumé et questions/réponses
-
-<br>
 
 ---
 

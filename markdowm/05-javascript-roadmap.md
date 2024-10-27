@@ -4,11 +4,7 @@
 <img src="./img/javascript-logo.png" alt="Javascript Logo" width="100">
 </center>
 
-<br>
-
 > JavaScript (souvent abrégé en « JS ») est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js.
-
-<br>
 
 Par **Rachid EDJEKOUANE ⭐️**
 
@@ -25,8 +21,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 7. **[Gestion des erreurs et débogage](#module-7--gestion-des-erreurs-et-débogage)**
 8. **[Les frameworks et bibliothèques JavaScript](#module-8--les-frameworks-et-bibliothèques-javascript)**
 
-<br>
-
 ---
 
 ### Module 1 : Introduction a JavaScript
@@ -36,8 +30,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les opérateurs et les expressions
 -   Les structures de contrôle de base (if/else, switch/case, boucles for/while)
 
-<br>
-
 ---
 
 ### Module 2 : Fonctions et évènements en JavaScript
@@ -45,8 +37,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les fonctions et leur utilisation en JavaScript
 -   Les événements et leur manipulation en JavaScript
 -   Les fonctions anonymes et les fermetures (closures)
-
-<br>
 
 ---
 
@@ -56,8 +46,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les objets et leur manipulation en JavaScript
 -   Les prototypes et l'héritage en JavaScript
 
-<br>
-
 ---
 
 ### Module 4 : Manipulation du DOM et gestion des formulaires
@@ -65,8 +53,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Le Document Object Model (DOM) et sa manipulation en JavaScript
 -   La gestion des événements du DOM
 -   La validation des formulaires en JavaScript
-
-<br>
 
 ---
 
@@ -77,8 +63,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Déstructuration et décomposition
 -   Les modules Javascript
 
-<br>
-
 ---
 
 ### Module 6 : Les requetes HTTP et les API
@@ -86,8 +70,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les requêtes HTTP et leur manipulation en JavaScript
 -   Les API et leur utilisation en JavaScript
 -   L'utilisation des Promises pour gérer les appels asynchrones
-
-<br>
 
 ---
 
@@ -97,8 +79,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les outils de débogage en JavaScript (console, breakpoints)
 -   Les bonnes pratiques pour éviter les erreurs courantes
 
-<br>
-
 ---
 
 ### Module 8 : Les frameworks et bibliothèques JavaScript
@@ -106,8 +86,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 -   Les frameworks JavaScript (Angular, React, Vue.js)
 -   Les bibliothèques JavaScript (jQuery, Lodash, Moment.js)
 -   Les avantages et les inconvénients de l'utilisation de ces outils
-
-<br>
 
 ---
 

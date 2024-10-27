@@ -4,11 +4,7 @@
 <img src="./img/git-logo.png" alt="Javascript Logo" width="150">
 </center>
 
-<br>
-
 > Git est un système de contrôle de version qui a été inventé et développé par Linus Torvalds, également connu pour l'invention du noyau Linux, en 2005. Il s'agit d'un outil de développement qui aide une équipe de développeurs à gérer les changements apportés au code source au fil du temps.
-
-<br>
 
 Par **Rachid EDJEKOUANE ⭐️**
 
@@ -24,8 +20,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 6. **[Git tag](#6-git-tag)**
 7. **[Reset et Restore](#7-reset-et-restore)**
 8. **[Cherry-pick](#8-cherry-pick)**
-
-<br>
 
 ---
 
@@ -56,8 +50,6 @@ git config --global --edit
 git config --global core.editor [editor]
 ```
 
-<br>
-
 ---
 
 ### 2. Créer des dépôts
@@ -85,8 +77,6 @@ git remote add [name] [url]
 ```bash
 git push -u origin main
 ```
-
-<br>
 
 ---
 
@@ -139,8 +129,6 @@ git commit --amend
 ```bash
 git diff
 ```
-
-<br>
 
 ---
 
@@ -196,8 +184,6 @@ _Fusion par récursion, lorsque il y a des commits différents sur plusieurs bra
 
 _Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) ._
 
-<br>
-
 ---
 
 ### 5. Checkout
@@ -215,8 +201,6 @@ git switch [nom-de-branche]
 
 git checkout [nom-de-branche]
 ```
-
-<br>
 
 ---
 
@@ -245,8 +229,6 @@ git tag
 ```bash
 git tag -d [nom-du-tag]
 ```
-
-<br>
 
 ---
 
@@ -284,8 +266,6 @@ git reset --hard idCommit
 git revert idDuCommitÀRetrouver
 ```
 
-<br>
-
 ---
 
 ### 8. Cherry-pick
@@ -295,8 +275,6 @@ git revert idDuCommitÀRetrouver
 ```bash
 git cherry-pick idDuCommit
 ```
-
-<br>
 
 ---
 

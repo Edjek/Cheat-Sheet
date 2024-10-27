@@ -4,11 +4,7 @@
 <img src="./img/emmet.png" alt="Emmet logo" width="100">
 </center>
 
-<br>
-
 > Emmet est un moteur d’autocomplétion intégré à Visual Studio Code qui permet d’accélérer votre production de code grâce à une syntaxe raccourcie.
-
-<br>
 
 Par **Rachid EDJEKOUANE ⭐️**
 
@@ -34,8 +30,6 @@ _Si vous souhaitez ajouter le squelette de base d'une page HTML, vous tapez un p
 !
 ```
 
-<br>
-
 ---
 
 ### 2. Insérer une balise
@@ -45,8 +39,6 @@ _Si vous souhaitez ajouter une balise seule, par exemple une "div", vous tapez s
 ```emmet
 div
 ```
-
-<br>
 
 ---
 
@@ -58,8 +50,6 @@ _Si notre div doit comporter un attribut "class", nous allons l'inclure de la m�
 p.le-nom-de-ma-class
 ```
 
-<br>
-
 ---
 
 ### 4. Créer plusieurs éléments qui se suivent
@@ -69,8 +59,6 @@ _Si nous souhaitons créer 3 sections qui auront des classes différentes, nous 
 ```emmet
 h2+p+a
 ```
-
-<br>
 
 ---
 
@@ -82,8 +70,6 @@ _Si un élément doit être créé à l'intérieur d'un autre élément, nous po
 div>p
 ```
 
-<br>
-
 ---
 
 ### 6. Multiplier des éléments
@@ -94,8 +80,6 @@ _Si un élément doit être créé plusieurs fois, nous pourrons utiliser le sym
 li*3
 ```
 
-<br>
-
 ---
 
 ### 7. Insérer du texte
@@ -105,8 +89,6 @@ _Dans l'exemple précédent nous n'avons pas mis le texte, nous pouvons le faire
 ```emmet
 p.le-nom-de-ma-class{coucou}
 ```
-
-<br>
 
 ---
 

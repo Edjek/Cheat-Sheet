@@ -4,11 +4,7 @@
 <img src="./img/vscode.png" alt="Emmet logo" width="200">
 </center>
 
-<br>
-
 > Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré.
-
-<br>
 
 Par **Rachid EDJEKOUANE ⭐️**
 
@@ -32,8 +28,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 14. **[Afficher la palette de commandes](#14-afficher-la-palette-de-commandes)**
 15. **[Paramètres utilisateur](#15-paramètres-utilisateur)**
 
-<br>
-
 ---
 
 > Pour (couper, copier, coller) on peut selectionner plusieurs lignes ou  
@@ -45,8 +39,6 @@ Par **Rachid EDJEKOUANE ⭐️**
 Ctrl + C
 ```
 
-<br>
-
 ---
 
 ### 2. Coller
@@ -54,8 +46,6 @@ Ctrl + C
 ```
 Ctrl + V
 ```
-
-<br>
 
 ---
 
@@ -65,8 +55,6 @@ Ctrl + V
 Ctrl + X
 ```
 
-<br>
-
 ---
 
 ### 4. Tout selectionner
@@ -74,8 +62,6 @@ Ctrl + X
 ```
 Ctrl + A
 ```
-
-<br>
 
 ---
 
@@ -85,8 +71,6 @@ Ctrl + A
 Alt + ARROW UP / DOWN ARROW
 ```
 
-<br>
-
 ---
 
 ### 6. Copier une ligne en haut ou en bas
@@ -94,8 +78,6 @@ Alt + ARROW UP / DOWN ARROW
 ```
 Shift + Alt + ARROW UP / DOWN ARROW
 ```
-
-<br>
 
 ---
 
@@ -105,8 +87,6 @@ Shift + Alt + ARROW UP / DOWN ARROW
 Ctrl + /
 ```
 
-<br>
-
 ---
 
 ### 8. Chercher
@@ -114,8 +94,6 @@ Ctrl + /
 ```
 Ctrl + F
 ```
-
-<br>
 
 ---
 
@@ -125,8 +103,6 @@ Ctrl + F
 Ctrl + H
 ```
 
-<br>
-
 ---
 
 ### 10. Créer un nouveau fichier
@@ -134,8 +110,6 @@ Ctrl + H
 ```
 Ctrl + N
 ```
-
-<br>
 
 ---
 
@@ -145,8 +119,6 @@ Ctrl + N
 Ctrl + P
 ```
 
-<br>
-
 ---
 
 ### 12. Naviguer dans les fichiers ouverts
@@ -154,8 +126,6 @@ Ctrl + P
 ```
 Ctrl + Tab
 ```
-
-<br>
 
 ---
 
@@ -165,8 +135,6 @@ Ctrl + Tab
 Ctrl + W
 ```
 
-<br>
-
 ---
 
 ### 14. Afficher la palette de commandes
@@ -175,8 +143,6 @@ Ctrl + W
 Ctrl + Maj + P
 ```
 
-<br>
-
 ---
 
 ### 15. Paramètres utilisateur
@@ -184,8 +150,6 @@ Ctrl + Maj + P
 ```
 Ctrl + ,
 ```
-
-<br>
 
 ---
 
